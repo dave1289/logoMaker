@@ -1,0 +1,65 @@
+html {
+    font-family: monospace;
+}
+
+body {
+    display:flexbox;
+    justify-content: center;
+    justify-items: center;
+    background-image: url("/https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?t=st=1657486492~exp=1657487092~hmac=51104fe8522a773373a7e3e33876eff81b2e3640bb9d64b8f511d9191975ab2e&w=1800") fixed no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 3rem;
+    text-align: center;
+    color: grey;
+    text-shadow: black 2px 2px;
+}
+
+#button {
+    background-color: blue;
+    border: solid cyan 5px;
+    text-align: center;
+    display:inline-block;
+    font-size: 4rem;
+    width: 300px;
+    height: 100px;
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    box-shadow: 6px 5px 2px black;
+}
+
+#container {
+    width: 1000px;
+    height:800px;
+    background-color: rgba(120, 120, 220, 0.3);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    border: solid black 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: black 1px 1px;
+    color: grey;
+    font-size: 2em;
+}
+
+#results {
+    text-align: center;
+    text-decoration: underline;
+    font-family: fantasy;
+}
